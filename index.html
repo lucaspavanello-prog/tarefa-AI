@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Configurações básicas do documento -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A História dos Videogames</title>
+
+  <!-- Fontes do Google Fonts: uma fonte "pixelada" para títulos de destaque
+       e uma fonte geométrica para textos longos (mais legível) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Folha de estilos do projeto -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== CABEÇALHO / MENU DE NAVEGAÇÃO ===================== -->
+  <header class="cabecalho">
+    <div class="container cabecalho__conteudo">
+      <p class="marca">🕹️ <span>Retro<strong>Games</strong></span></p>
+
+      <nav class="navegacao" aria-label="Navegação principal">
+        <ul class="navegacao__lista">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#evolucao">Evolução</a></li>
+          <li><a href="#jogos">Jogos Marcantes</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== SEÇÃO 1: INÍCIO (HERO) ===================== -->
+    <section id="inicio" class="secao hero">
+      <div class="container hero__grade">
+
+        <div class="hero__texto">
+          <p class="eyebrow">// insira a ficha<span class="cursor" aria-hidden="true">_</span></p>
+          <h1>A História dos Videogames</h1>
+          <p>
+            Dos circuitos analógicos das décadas de 1950 e 1960 aos mundos digitais de hoje,
+            os videogames percorreram um caminho de mais de setenta anos. Este site reúne os
+            <strong>primeiros consoles</strong>, a <strong>evolução das gerações</strong>,
+            os <strong>jogos que marcaram época</strong> e <em>curiosidades</em> pouco conhecidas
+            sobre essa história.
+          </p>
+        </div>
+
+        <div class="hero__imagem">
+          <img src="tv-retro.svg" alt="Ilustração de uma televisão de tubo antiga com um console de videogame conectado">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SEÇÃO 2: EVOLUÇÃO DOS CONSOLES ===================== -->
+    <section id="evolucao" class="secao">
+      <div class="container">
+        <h2>Dos primeiros consoles à evolução das gerações</h2>
+        <p>
+          A história dos videogames começou de forma modesta, em laboratórios e garagens, muito
+          antes de se tornar uma das indústrias de entretenimento mais lucrativas do mundo. O
+          engenheiro <strong>Ralph Baer</strong>, considerado o "pai dos videogames", desenvolveu
+          ainda nos anos 1960 um protótipo chamado Brown Box, que deu origem ao primeiro console
+          doméstico comercial: o <strong>Magnavox Odyssey</strong>, lançado em 1972.
+        </p>
+
+        <div class="evolucao__grade">
+          <!-- Lista ordenada: as gerações de consoles seguem uma sequência cronológica real,
+               por isso a numeração faz sentido aqui -->
+          <ol class="linha-do-tempo">
+            <li><strong>1ª geração (1972–1977):</strong> o Magnavox Odyssey e o arcade Pong
+              apresentam ao público os primeiros jogos eletrônicos, ainda com gráficos muito simples.</li>
+            <li><strong>2ª geração (1977–1983):</strong> o Atari 2600 populariza os cartuchos
+              intercambiáveis e o videogame doméstico vira febre de consumo.</li>
+            <li><strong>3ª geração (1983–1987):</strong> a crise dos videogames de 1983 quase
+              encerra o setor, até o <em>Nintendo Entertainment System</em> (NES) devolver a
+              confiança do público.</li>
+            <li><strong>4ª geração (1987–1993):</strong> a disputa entre Sega Mega Drive e
+              Super Nintendo consolida os jogos em 16 bits.</li>
+            <li><strong>5ª e 6ª gerações (1993–2005):</strong> o PlayStation troca os cartuchos
+              por CDs e amplia o público adulto dos videogames.</li>
+            <li><strong>Gerações atuais (2005–hoje):</strong> PlayStation, Xbox e Nintendo Switch
+              combinam gráficos realistas, jogos on-line e portabilidade.</li>
+          </ol>
+
+          <!-- Artigo em destaque: conteúdo independente sobre um console específico -->
+          <article class="destaque">
+            <img class="destaque__imagem" src="cartucho-retro.svg" alt="Ilustração de um cartucho de videogame no estilo retrô">
+            <h3>Destaque: o Nintendo Entertainment System</h3>
+            <p>
+              Lançado no Japão em 1983 como Famicom e nos Estados Unidos em 1985, o NES é
+              apontado como o console responsável por reerguer a indústria após a crise de 1983.
+              Ele também apresentou ao mundo o encanador mais famoso dos videogames — batizado
+              inicialmente de <em>Jumpman</em> no arcade Donkey Kong (1981) e, mais tarde,
+              rebatizado como Mario.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SEÇÃO 3: JOGOS MARCANTES ===================== -->
+    <section id="jogos" class="secao secao--painel">
+      <div class="container">
+        <h2>Jogos que marcaram época</h2>
+        <p>
+          Alguns títulos não apenas venderam milhões de cópias — eles mudaram a forma como os
+          jogos são projetados até hoje. Conheça alguns marcos históricos:
+        </p>
+
+        <div class="jogos__grade">
+          <ul class="lista-jogos">
+            <li>
+              <strong>Pong</strong> (1972) — o primeiro grande sucesso comercial dos fliperamas,
+              uma simples partida de tênis eletrônico que deu início à indústria.
+            </li>
+            <li>
+              <strong>Space Invaders</strong> (1978) — populariza o tiro em fileiras e, segundo
+              um boato famoso da época, teria provocado escassez da moeda de 100 ienes no Japão.
+            </li>
+            <li>
+              <strong>Super Mario Bros.</strong> (1985) — definiu os padrões do gênero
+              plataforma e ajudou o NES a reconquistar o público após a crise de 1983.
+            </li>
+            <li>
+              <strong>Tetris</strong> (1984) — criado pelo engenheiro soviético Alexey Pajitnov,
+              tornou-se um dos jogos mais portados da história.
+            </li>
+            <li>
+              <strong>Sonic the Hedgehog</strong> (1991) — resposta da Sega ao sucesso da
+              Nintendo, apostando na velocidade como diferencial.
+            </li>
+          </ul>
+
+          <div class="jogos__imagem">
+            <img src="controle-retro.svg" alt="Ilustração de um controle de videogame no estilo retrô">
+          </div>
+        </div>
+
+        <h3>Recordes que a indústria carrega</h3>
+        <p>
+          O <strong>PlayStation 2</strong>, lançado em 2000, é até hoje o console mais vendido da
+          história, com mais de 155 milhões de unidades comercializadas. Já <strong>Minecraft</strong>,
+          lançado originalmente em 2011, tornou-se um dos jogos mais vendidos de todos os tempos.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== SEÇÃO 4: CURIOSIDADES ===================== -->
+    <section id="curiosidades" class="secao">
+      <div class="container">
+        <h2>Curiosidades sobre o universo dos videogames</h2>
+
+        <ul class="lista-curiosidades">
+          <li>O nome <strong>Mario</strong> só foi definido em 1981, durante o desenvolvimento
+            de Donkey Kong; antes disso, o personagem era chamado apenas de <em>Jumpman</em>.</li>
+          <li>O termo <em>videogame</em> só passou a ser usado amplamente depois da popularização
+            dos fliperamas nas décadas de 1970 e 1980.</li>
+          <li>O <strong>Game Boy</strong>, lançado em 1989, foi vendido junto com o clássico
+            Tetris e ajudou a consolidar os jogos portáteis como um mercado sério.</li>
+          <li>Alguns dos primeiros jogos eletrônicos, como o <em>Tennis for Two</em> (1958),
+            rodavam em osciloscópios e nunca chegaram a ser vendidos comercialmente.</li>
+          <li>A sigla <strong>NPC</strong>, hoje usada até fora dos jogos, significa
+            <em>non-player character</em> (personagem não jogável).</li>
+        </ul>
+
+        <p class="caixa-link">
+          Para quem quiser se aprofundar ainda mais nesse tema, a Wikipédia mantém um artigo
+          completo sobre a
+          <a href="https://en.wikipedia.org/wiki/History_of_video_games" target="_blank" rel="noopener noreferrer">
+            história dos videogames
+          </a>, com referências detalhadas sobre cada época.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="rodape">
+    <div class="container">
+      <p>Trabalho desenvolvido por <strong>Pavanello</strong> — Turma 2ºE — 3ºCPM</p>
+      <p class="rodape__pequeno">Projeto escolar sobre a história dos videogames.</p>
+    </div>
+  </footer>
+
+  <!-- O botão "voltar ao topo" é criado inteiramente pelo JavaScript, veja script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
